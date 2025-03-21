@@ -24,24 +24,24 @@ class Navbar extends React.Component {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 
-					<div className="collpase navbar-collapse" id="navbarSupportedContent">
+					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav mr-auto links">
 							<li className="nav-item">
-								<a className="nav-link" href="./index.html">
+								<Link className="nav-link" to="/">
 									HOME
-								</a>
+								</Link>
 								&nbsp; &nbsp;
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="./about.html">
+								<Link className="nav-link" to="/about">
 									ABOUT
-								</a>
+								</Link>
 								&nbsp; &nbsp;
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="./contact-us.html">
+								<Link className="nav-link" to="/contact">
 									CONTACT
-								</a>
+								</Link>
 								&nbsp; &nbsp;
 							</li>
 						</ul>
